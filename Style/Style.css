@@ -1,0 +1,178 @@
+body {
+      font: 100% "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+      margin: 0;
+    }
+    
+    header {
+      background: #FFCC99;
+      color: white;
+      -moz-box-shadow: 0 2px 8px -3px rgba(0,0,0,.5), 0 1.4em 2em -0.7em rgba(255, 255, 255, .2) inset;
+      -webkit-box-shadow: 0 2px 8px -3px rgba(0,0,0,.5), 0 1.4em 2em -0.7em rgba(255, 255, 255, .2) inset;
+      box-shadow: 0 2px 8px -3px rgba(0,0,0,.5), 0 1.4em 2em -0.7em rgba(255, 255, 255, .2) inset;
+      text-shadow: 1px 1px 1px #444;
+    }
+	
+	.footer {
+      background: #FFCC99;
+      color: #FF9966;
+	  text-align: center;
+      -moz-box-shadow: 0 2px 8px -3px rgba(0,0,0,.5), 0 1.4em 2em -0.7em rgba(255, 255, 255, .2) inset;
+      -webkit-box-shadow: 0 2px 8px -3px rgba(0,0,0,.5), 0 1.4em 2em -0.7em rgba(255, 255, 255, .2) inset;
+      box-shadow: 0 2px 8px -3px rgba(0,0,0,.5), 0 1.4em 2em -0.7em rgba(255, 255, 255, .2) inset;
+      /*text-shadow: 1px 1px 1px #444;*/
+    }
+    
+    header h1, header h2 {
+      display: inline-block;
+      padding: 12px 15px;
+      font-size: 105%;
+      line-height: 1;
+      margin: 0;
+    }
+    
+    header h1 {
+      background: #FF9966;
+    }
+    
+	.navigation ul li a{
+		text-decoration: none !important;
+	}
+    
+    .arrow-right {
+      display: inline-block;
+      width: 0;
+      height: 0;
+      border-top: 18px solid transparent;
+      border-bottom: 18px solid transparent;
+      border-left: 18px solid #FF9966;
+      margin-bottom: -11px;
+    }
+    
+    input, textarea {
+      font-size: 99%;
+    }
+	
+	ul li
+	{
+		display: block;
+		float: left;
+		//position: relative;
+		background-color: #FFCC99;
+	}
+	
+	li ul
+	{
+		display: block;
+	}
+	ul li a
+	{
+		display: block;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 12px;
+		line-height: 38px;
+		font-weight: bold;
+		padding: 0 20px;
+		text-align: center;
+		color: #383838;
+		border: 1px solid #e5e5e5;
+		border-left: none;
+		text-decoration: none;
+		text-overflow: ellipsis; 
+		white-space: nowrap;
+	}
+	ul li a:hover
+	{
+		background: #FF9966;
+	}
+	li:hover ul
+	{
+		display: block;
+		//position: absolute;
+	}
+	li:hover li
+	{
+		float: none;
+	}
+	li:hover a
+	{
+		background: #383838;
+		color: #ffffff;
+	}
+	li:hover li a:hover
+	{
+		background: #CC9537;
+		color: #ffffff;
+	}
+	
+	.contactInfo
+	{
+		display: none;
+	}
+	
+	.addContact
+	{
+	
+	}
+	
+	.clearfix li
+	{
+		display: block;
+		float: left;
+		background-color: #FFFFFF;
+		max-width: 45px;
+	}
+	
+	#shows { display: block; }
+
+	.show { display: block; padding-top: 8px; margin-bottom: 23px; }
+	.meta { font-family: Arial, Verdana, sans-serif; color: #222; font-size: 0.8em; font-weight: bold; float: right; }
+
+	/* clearfix */
+	.clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
+	.clearfix { display: inline-block; }
+	 
+	html[xmlns] .clearfix { display: block; }
+	* html .clearfix { height: 1%; }
+
+	.formInput, .button
+	{
+		float: right;
+	}
+	
+	.rightAlign
+	{
+		width: 50%;
+		float: right;
+	}
+	
+	.leftAlign
+	{
+		width: 50%;
+		float: left;
+	}
+	
+	.centered-medium
+	{
+		margin-left: 15%;
+		margin-right: 25%;
+		display: block;
+		width: 70% !important;
+	}
+	
+	#container
+	{
+		float: center;
+		display: block;
+		text-align: center;
+		align-content: center;
+	}
+	
+	.centered-Title
+	{
+		text-align: center;
+	}
+	
+	.nuevoContacto
+	{
+		background-color: #CC9537;
+	}
